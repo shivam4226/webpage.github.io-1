@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 10px solid rgb(78, 75, 75);
+    margin: 5px;
+    padding: 5px;
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    color: blue;
+    text-shadow: 1px 5px orange;
+}
+table{
+    margin: auto;
+    /* background-color: rgb(250, 187, 92); */
+    padding: 10px;
+}
+input[type="text"],
+    input[type="email"],
+    select,
+    input[type="date"],
+    input[type="number"],
+    textarea {
+    margin: 3px;
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid green;
+    font-size: 18px;
+}
+span{
+    
+    color: rgb(20, 19, 19);
+    /* background-color: rgb(175, 173, 173); */
+    font-size: 16px;
+}
+label{
+    text-align: center;
+    justify-content: center;
+    word-spacing: 3px;
+}
+.gender{
+    text-align: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+textarea {
+    background-color: yellow;
+    margin-top: 10px;
+  }
+.btn {
+    margin: 10px;
+    padding: 3px;
+    justify-content: center;
+  }
